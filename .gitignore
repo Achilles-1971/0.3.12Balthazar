@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+.env
+env/
+venv/
+ENV/
+Pipfile.lock
+poetry.lock
+.mypy_cache/
+.pytest_cache/
+.cache/
+
+# VS Code
+.vscode/
+.history/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Database dumps/backups
+*.sql
+*.backup
+
+# Virtual environment
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Logs
+*.log
+
+# FastAPI specific
+instance/
+*.db
+*.sqlite3
